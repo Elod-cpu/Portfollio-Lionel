@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteneur{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+button:hover{
+    background-color:blueviolet;
+}
+
+header{
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    height: 70px;
+    width: 100px;
+    display: flex;
+    margin-left: 65px;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 250;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    color:#007FFF;
+    font-size: 40px;
+    font-weight: 250;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+nav{
+    margin-left:300px;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #007FFF;
+}
+
+button{
+    background-color:#007FFF ;
+    color: white;
+    height: 45px;
+    width: 130px;
+    margin-right: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.middle{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.left{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+
+.left h4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.leftin{
+    margin-top: 30px;
+}
+
+.leftin input{
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-radius: 15px;
+    position:absolute;
+    padding: 12px;
+}
+
+.leftin button{
+    position:relative;
+    height: 30px;
+    width: 60px;
+    margin-left: 335px;
+    margin-top: 9px;
+    border-radius: 9px;
+}
+
+.right{
+    height: 500px;
+    width: 450px;
+    margin-left: 200px;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+.fin{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.fin h6{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.F{
+    display: flex;
+}
+    
+.icon{
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+/*Fin de la première partie*/
+
+.Deux{
+    background-color: white;
+    display: flex;
+}
+
+.Deuxleft{
+    background-color: #007FFF;
+    width: 35%;
+    height: 100vh;
+    position: relative;
+}
+
+.Deuxleft img{
+    margin-left: 260px;
+    position: relative;
+}
+
+
+.Deuxright{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 65%;
+}
+
+.Deuxright h1{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 90px;
+    margin-left: 300px;
+    color: white;
+}
+
+
+.Les{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.Les h4{
+    color: white;
+}
+
+.Les h5{
+    color:#007FFF;
+    margin-left: 18px;
+    font-size: 40px;
+}
+
+.Deuxright h6{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-weight: 40;
+}
+
+.Deuxright button{
+    margin-top: 60px;
+    margin-left: 370px;
+}
+
+/*Fin de la deuxième partie*/
+
+.Trois{
+    background-color:black;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.Los{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.Los h1{
+    color:#007FFF;
+    margin-top: 50px;
+}
+
+.Los a{
+    text-decoration: none;
+}
+
+.Los h1:hover{
+    color: white;
+}
+
+.Las{
+    width: 95%;
+    height: 80vh;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.Las h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.css{
+    margin-left: 300px;
+    transform-origin: left;
+	transform: perspective(90px) rotateY(13deg);
+    animation: text-reveal ;
+}
+
+.html{
+    margin-left: 90px;
+    transform: perspective(90px) rotateY(13deg);
+}
+.java{
+    transform: perspective(90px) rotateY(13deg);
+}
+
+
+/*Fin de la troisième partie*/
+
+
+.Quatre{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.work{
+    background-color:black;
+    width:100%;
+    height: 20vh;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.work h1{
+    margin-top: 50px;
+}
+
+.items{
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.itemsA{
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 50%;
+    height: 40%;
+}
+
+.itemsB{
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 50%;
+    height: 40%;
+}
+
+/*Fin de la quatrième partie*/
+
+.Cinq{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.haut{
+    background-color: #007FFF;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.haut h4{
+    color: black;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.haut button{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 600px;
+}
+
+.haut button:hover{
+    background-color: blueviolet;
+}
+
+.bas{
+     height: 50vh;
+     width: 100%;
+     background-color: black;
+}
+
+.bas button{
+    background-color: white;
+    font-size: 30px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    margin-left: 550px ;
+    margin-top: 100px;
+    border-radius: 5pxs;
+}
+
+.basF{
+    margin-left: 470px;
+    margin-top: 80px;
+}
+
